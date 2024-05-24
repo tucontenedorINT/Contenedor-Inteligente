@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenedor de Compostaje Inteligente</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+        }
+        header {
+            background-color: #388e3c;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+            border-radius: 8px;
+        }
+        .qr-code img {
+            margin-top: 1rem;
+        }
+        .location iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #388e3c;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .process ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .process li {
+            background: #e8f5e9;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-left: 4px solid #388e3c;
+        }
+        .support ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .support li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-leaf"></i> Contenedor de Compostaje Inteligente</h1>
+    </header>
+    <div class="container">
+        <section class="qr-code text-center">
+            <h2>Almacenamiento Actual</h2>
+            <img src="Imagenes/barra.png">
+        </section>
+
+        <section class="location">
+            <h2>Ubicación del Contenedor</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle 23 #30-2 a 30-74, La Esperanza Bovaca, Cali, Valle del Cauca </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.6821055125165!2d-76.52356458850602!3d3.427360451363102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a70765087c4d%3A0x3778e0839598626f!2sGaler%C3%ADa%20de%20Santa%20Elena!5e0!3m2!1ses!2sco!4v1716515899448!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="process">
+            <h2>Proceso de Compostaje</h2>
+            <p>El contenedor de compostaje inteligente realiza el siguiente proceso:</p>
+            <ul>
+                <li><i class="fas fa-recycle"></i> Recepción de residuos orgánicos.</li>
+                <li><i class="fas fa-cut"></i> Triturado y mezcla de materiales.</li>
+                <li><i class="fas fa-thermometer-half"></i> Monitoreo de temperatura y humedad.</li>
+                <li><i class="fas fa-leaf"></i> Descomposición controlada.</li>
+                <li><i class="fas fa-check"></i> Producción de compost listo para usar.</li>
+            </ul>
+        </section>
+
+        <section class="support">
+            <h2>Soporte y Ayuda Técnica</h2>
+            <p>Si necesitas ayuda, por favor contacta a nuestro equipo de soporte:</p>
+            <ul>
+                <li><i class="fas fa-phone"></i> Teléfono: 3053461337</li>
+                <li><i class="fas fa-envelope"></i> Email: soporte@compostajeinteligente.com</li>
+                <li><i class="fas fa-comments"></i> Chat en vivo: <a href="#">Haz clic aquí</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Contenedor de Compostaje Inteligente. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
